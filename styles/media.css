@@ -1,0 +1,289 @@
+@media (max-width : 1200px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media (max-width : 768px) {
+	
+}
+
+/* Extra Small Devices, Phones */
+@media (max-width : 576px) {
+	
+
+}
+
+@media screen and (min-width : 993px){	
+	.carousel-item p{
+		margin-right: 10%;
+	}	
+	#krossMenu{
+		display: none;
+	}	
+	nav ul {
+		width: 90%;
+	}
+	#newsNav:before{
+	left: 42%;
+}
+#newsNav:after{
+	left: -40%;
+}
+footer .icons a{
+	margin:2px;
+}
+footer .icons p{
+	padding-right: 3%;
+}
+}
+@media screen and (max-width : 992px){
+	.contaner{
+		margin:0;
+	}
+	header{
+		padding-left: 0;
+	}
+	#krossMenu{
+		display: none;
+	}	
+	.sub a:hover{
+		color: #007bff;
+		text-decoration: none;
+	}
+	#success h5{
+		font-size: 320%;
+	}	
+	.carousel-item p{
+		margin-right: 10%;
+	}
+	#order{
+		position: relative;
+		top: -5px;
+	}
+	#order button{
+		float: right;
+	}
+	header .contacts a {
+		float: right;
+	}
+	footer .contacts{
+	margin-top: 25px;
+}
+footer .contacts>div:first-child{
+	float:left;
+	margin-right: 7%;
+}
+footer .icons{
+	display: block;
+	width: 60%;
+	margin: auto;
+}
+	#structure{
+		border: none;
+	}
+	nav ul {
+		max-width: 100%;
+		margin-left: 0;
+		padding-left: 0;
+	}
+	nav ul li{
+	width: 100%;
+	text-align: right;
+	}
+#serviceGallery aside{
+	padding: 0;
+}
+#serviceGallery aside p,#serviceGallery aside h4 {
+    margin-bottom: 0;
+}
+#newsNav:before{
+	left: 35%;
+}
+#newsNav:after{
+	left: -31%;
+}
+}
+@media screen and (max-width : 768px){	
+	nav{
+		display: none;
+		text-align: right;
+		padding: 0 50px 20px;
+	}
+	nav ul{
+		display: inherit;
+	}
+	nav ul li{
+		display: inherit;
+	}
+	nav ul>li div{
+		display: none;
+	}
+	nav>ul>li>a:only-child:after{
+	content:"";
+}
+	#krossMenu{
+		display: block;
+		margin-right: 15px;
+		margin-bottom: 15px;
+	}	
+	nav ul li .sub{
+		display: none;
+		position: inherit;
+		border: none;
+		padding: 0 30px 0 0;
+	}
+	nav li:hover .sub {
+		display: none;
+	}		
+    footer{
+		padding: 15px 2%;
+	}
+	#navOrder{
+		margin-left: 250px;
+		height: 25px;
+		padding: 10px auto;
+		padding: 10px 0;
+		text-align: center;
+	}
+	header{
+		width: 100%;
+		padding-left: 0;
+	}
+	#searchForm input{
+		width: 70%;
+		margin-left: 15%;
+	}
+	#carouselReact .carousel-item{
+		display: block;
+		cursor: pointer;
+	}
+	#carouselReact .carousel-item p{
+		margin-right: 3%;
+	}
+	#carouselReact .carousel-item p:last-child, #carouselReact .carousel-item img, #carouselReact .carousel-indicators{
+		display: none;
+	}
+	#carouselReact .carousel-item p:last-child{
+		float: left;
+	}
+	#carouselReact .carousel-item p:first-child{
+		display: block;
+		float: left;
+	}
+	#carouselReact .carousel-item p:first-child:after, nav>ul>li>a:after{
+		content: "\f107";
+  		font-family: FontAwesome;
+		display: block;
+		float: right;
+		color: #007bff;
+	}
+	 nav>ul>li>a:after{
+	 	margin-top: -7px;
+	 	font-size: 150%;
+	 	padding-left: 10px;
+	 }
+
+	#carouselReact .carousel-item p:first-child:after{
+		font-size: 200%;
+	}
+
+	#carouselReact .carousel-item .transform p:first-child:after{
+		transform: rotate(180deg);
+	}
+	#carouselReact .carousel-item:not(:last-child) .row{
+		border-bottom: 1px solid #c4c4c4;
+	}
+	#partners img{
+    margin: auto;
+    display: block;
+    padding: 20px 0;
+	}
+
+	#more button, #navOrder{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px; 
+    display: block;	
+    background-color: #fff;
+    width: 50%;
+	}
+	h2{
+		margin-left: 20%;
+	}
+	label[for="text"] {
+		top: 390px;
+	}
+	#serviceGallery aside {
+    padding: 6% 2% 2% 0;
+	}
+	#serviceGallery aside p,#serviceGallery aside h4 {
+    margin-bottom: 2%;
+}
+#serviceGallery a{
+	float: none!important;
+}
+footer .contacts>div:first-child{
+	float:none;
+	margin-right: 0;
+}
+#simplePage fieldset {
+    margin-right: 0;
+    margin-top: 50px;
+}
+}
+@media screen and (max-width : 530px){
+	
+	#logo img{
+		width: 100%;
+	}
+	nav{
+		max-width: 100%;
+	}
+	#carouselReact .carousel-item p:first-child{
+		display: block;
+	}
+	#video h1{
+		font-size: 208%;
+	}
+	label[for="text"] {
+		top: 420px;
+	}
+	h2{
+		margin-left: 0;
+	}
+	#searchForm input {
+    width: 85%;
+    margin-left: 5%;
+	}
+#krossMenu{
+	width: 25px;
+	height:25px;
+	margin-right: 5px;
+	margin-bottom: 15px;
+}
+#krossMenu span{
+	  width:25px;
+	  height: 2px;
+	}	
+	#serviceGallery aside h4 {
+    margin-bottom: 25px;
+}
+#serviceGallery aside p {
+    margin-bottom: 30px;
+}
+#newsNav:before{
+	left: 25%;
+}
+#newsNav:after{
+	left: -18%;
+}
+footer .icons{
+	width: 75%;
+}
+
+}
